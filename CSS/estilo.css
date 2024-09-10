@@ -27,18 +27,62 @@
     flex-direction: column;
 }
 
-.partecima{
-    display: flex;
-    flex:2;
-}
 .rodape{
     display: flex;
     background-color: #777;
     flex:1;
 }
 
+.parteDeCima{
+    background-color: #ffcbdb;
+    display:flex;
+    flex:2;
+}
 
+.esquerda {
+    background-color: #999;
+    display: flex;
+    flex-direction: column;
+    flex:2;
+}
 
+.direita {
+    background-color: #888;
+    display: flex;
+    flex-direction: column;
+    flex:1;
+}
 
+.header {
+    background-color: #666;
+    flex:1;
+}
+
+.cabecalho{
+    background-color: #bbb;
+    display:flex;
+    flex:1;
+}
+
+.menuD{
+    display:flex;
+    flex:1;
+}
+
+.artigos{
+    flex:1;
+    display: flex;
+}
+
+.artigo1{
+    display: flex;
+    flex:1;
+}
+
+.artigo2{
+    display:flex;
+    flex:1;
+    background-color:gray;
+}
 
 
