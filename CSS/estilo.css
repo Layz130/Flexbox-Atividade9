@@ -20,7 +20,6 @@
 
 .container{
     display:flex;
-    background-color:green;
     height: 500px;
     width: 800px;
     margin: 0 auto;
@@ -28,9 +27,9 @@
 }
 
 .rodape{
-    display: flex;
     background-color: #777;
     flex:1;
+    flex-direction: column;
 }
 
 .parteDeCima{
@@ -77,12 +76,100 @@
 .artigo1{
     display: flex;
     flex:1;
+    flex-direction: column;
 }
 
 .artigo2{
     display:flex;
     flex:1;
     background-color:gray;
+    flex-direction: column;
 }
 
 
+.fonte{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+#itens{
+    background-color: #bbb;
+}
+#itens li a {
+    font-size: xx-small;
+    padding: 10px 10px;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+#itens{
+    background-color: transparent;
+}
+
+#artigos{
+    flex:3;
+}
+
+#textin{
+    flex:2;
+}
+
+
+
+
+
+
+.conteudo{
+    display: flex;
+    flex: 6;
+    align-items: center;
+}
+
+.caixa1{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: rgba(60, 60, 218, 0.473);
+    height: 20vh;
+}
+
+.caixa2{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: #896fd1;
+    height: 30vh;
+}
+
+.caixa3{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: #3d339e;
+    height: 15vh;
+}
+
+.caixa4{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: #1a0e47ad;
+    height: 35vh;
+}
+
+.caixa5{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: #9b5aa8d0;
+    height: 50vh;
+}
+
+.caixa6{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: #6305b1bb;
+    height: 20vh;
+}
